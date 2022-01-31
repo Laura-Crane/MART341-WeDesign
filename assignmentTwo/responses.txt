@@ -1,0 +1,3 @@
+Directories are folders for your files
+VCS is useful because you can track changes, revert back, and share & collaborate
+My favorite artistic medium is not art as in pictures but writing itself
