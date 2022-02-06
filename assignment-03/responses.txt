@@ -1,0 +1,3 @@
+An IP address is the actual location where entities are located a DNS only gives an entity name.
+A cookie is a small piece of text sent to your browser by websites that you visit.
+The protocol, domain name, and path leading to webpage
