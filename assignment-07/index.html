@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>
+    Laura's Candles
+  </title>
+  <!-- I am defining the character set I am using -->
+  <meta charset:"utf-8">
+  <!-- I am providing a description of my page -->
+  <meta name="discription" content="Candles to magnify intentions">
+  <!-- I am providing author information for the page -->
+  <meta name="author" content="Laura Schoening">
+  <!-- I am adding the viewport next -->
+  <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+
+  <style>
+    body {background-color: #5F36B0}
+    h1 {color: gold}
+    h3 {color: gold}
+    p {color: gold}
+  </style>
+</head>
+<body>
+  <img src="images/candles.png" width="300" alt="A picture of Laura's candles" />
+  <h1>
+    Laura's Candles
+  </h1>
+  <h3>
+    Subscribe to our weekly newsletter!
+  </h3>
+  <!-- Subscription Form -->
+  <form method="POST" action="index.html">
+    <p>
+      Would you like to subscribe to our Newsletter?
+      <br />
+      <br />
+      Yes <input type="radio" name="newsletter" id="newsletter" value="Y">
+      No <input type="radio" name="newsletter" id="newsletter" value="N">
+      <br />
+      <br />
+      Subscribe to our e-mail list:
+    </p>
+      <input type="text" id="email" placeholder="Enter your email address" />
+      <input type="submit" name="subscribe" value="Subscribe" />
+  </form>
+  </body>
+  </html>
