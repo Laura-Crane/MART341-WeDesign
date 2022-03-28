@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <title>
+      Contact Us
+    </title>
+    <!-- I am defining the character set I am using -->
+    <meta charset:"utf-8">
+    <!-- I am providing a description of my page -->
+    <meta name="discription" content="Contact us for questions on candle making">
+    <!-- I am providing author information for the page -->
+    <meta name="author" content="Laura Schoening">
+    <!-- I am providing keywords to describe the contents of my website -->
+    <meta name="keywords" contents="Herbs, Crystals, Candles, Intentions">
+    <!-- I am adding the viewport next -->
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+
+    <style>
+      nav {
+        background-color: DarkSlateGrey;
+        color: White;
+        padding: 1%;
+        text-align: right;
+        border: 5px white solid;
+      }
+
+      a {
+        color: white;
+        font-size: 25px;
+      }
+
+      div {
+        background-color: DarkGrey;
+        boarder: 1px black solid;
+        widgth: 700px;
+        margin: auto;
+        padding: 30px;
+      }
+
+      body {
+        background-color: DimGrey;
+        boarder: 1px black solid;
+        widgth: 700px;
+        margin: auto;
+        padding: 30px;
+        font-family: DejaVu Sans Mono, monospace;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <nav>
+      <a href="index.html">
+        <img src="images/rosemary-drawing.png" alt="Rosemary Logo" width="75" style="float: left;">
+      </a>
+
+      <br/>
+
+      <ul style="display: inline;">
+        <li style="display: inline;">
+          <a href="about.html">About</a>
+        </li>
+        &vert;
+        <li style="display: inline;">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+    </nav>
+
+    <br/>
+    <br/>
+
+    <div>
+      <h1>
+        Contact Us
+      </h1>
+
+      <br/>
+      <br/>
+
+      <form method="POST" action="index.html">
+        <label for="name">
+          Name
+        </label>
+
+        <input type="text" id="name" placeholder= "Enter Name Here" autofocus>
+
+        <br/>
+        <br/>
+
+        <label for="email">
+          Email
+        </label>
+        <input type="text" id="email">
+
+        <br/>
+        <br/>
+
+        <label for="comments">
+          Comments:
+        </label>
+
+        <br/>
+        <br/>
+
+        <input type="submit" name="submit" value="Submit">
+      </form>
+    </div>
+    
+    </body>
+</html>
