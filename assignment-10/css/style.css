@@ -1,0 +1,51 @@
+body{
+  background-color: #D9CAB3;
+  font-family: monospace;
+  text-align: center;
+}
+
+div {
+  border: 5px solid black;
+  display: inline-block;
+}
+
+img {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#logo{
+  font-size: 20px;
+  background-color: #687864;
+  font-color: black;
+  margin: auto;
+  padding: 20px;
+  width: 1000px;
+  height: 100px;
+}
+
+.herbs{
+  background-color: #8E5572;
+  width: 700px
+  height: 700px
+
+}
+
+.crystals{
+  background-color: #19647E;
+  width: 700px
+  height: 700px
+}
+
+.decorating{
+  background-color: #DD6031;
+  width: 700px
+  height: 700px
+}
+
+.top{
+  font-size: 20px;
+  background-color: #687864;
+  margin: auto;
+  border: 2px solid black;
+}
