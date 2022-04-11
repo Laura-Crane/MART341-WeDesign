@@ -1,0 +1,74 @@
+/* Applies “SourceSerifPro” to everything: */
+* {
+    font-family: 'SourceSerifPro';
+}
+body{
+  font-family: SourceSerifPro-BoldItalic
+  background-color: #D9CAB3;
+  text-align: center;
+  font-weight: 700;
+}
+
+#title:hover{
+  letter-spacing: 1em;
+}
+
+div {
+  border: 5px solid black;
+  display: inline-block;
+}
+
+img {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#logo{
+  font-size: 20px;
+  background-color: #687864;
+  font-color: black;
+  margin: auto;
+  padding: 20px;
+  width: 1000px;
+  height: 100px;
+}
+
+.herbs{
+  font-family: SourceSerifPro-Regular;
+  background-color: #8E5572;
+  width: 700px
+  height: 700px
+
+}
+
+.crystals{
+  font-family: SourceSerifPro-Regular;
+  background-color: #19647E;
+  width: 700px
+  height: 700px
+}
+
+.decorating{
+  font-family: SourceSerifPro-Regular;
+  background-color: #DD6031;
+  width: 700px
+  height: 700px
+}
+
+.top-link{
+  text-decoration: none;
+  color: black;
+  background-color: #687864;
+  margin: auto;
+  border: 2px solid black;
+
+.top-link:hover{
+  text-decoration: underline;
+  font-weight: 700;
+  background-color: #687864;
+  margin: auto;
+  border: 2px solid black;
+}
+.top-link:visted{
+  color: #8E5572
+}
