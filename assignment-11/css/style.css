@@ -3,7 +3,7 @@
     font-family: 'SourceSerifPro';
 }
 body{
-  font-family: SourceSerifPro-BoldItalic
+  font-family: SourceSerifPro-BoldItalic;
   background-color: #D9CAB3;
   text-align: center;
   font-weight: 700;
@@ -34,7 +34,7 @@ img {
 }
 
 .herbs{
-  font-family: SourceSerifPro-Regular;
+  font-family: SourceSerifPro-Light;
   background-color: #8E5572;
   width: 700px
   height: 700px
@@ -42,14 +42,14 @@ img {
 }
 
 .crystals{
-  font-family: SourceSerifPro-Regular;
+  font-family: SourceSerifPro-Light;
   background-color: #19647E;
   width: 700px
   height: 700px
 }
 
 .decorating{
-  font-family: SourceSerifPro-Regular;
+  font-family: SourceSerifPro-Light;
   background-color: #DD6031;
   width: 700px
   height: 700px
