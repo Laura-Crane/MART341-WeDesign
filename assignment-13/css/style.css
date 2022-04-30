@@ -14,11 +14,11 @@
   margin: auto;
   padding: 20px;
   width: 1000px;
-  height: 100px;
+  height: 200px;
 }
 
 #logo{
-  text-align: left;
+  Float: left;
 }
 
 body{
@@ -51,23 +51,22 @@ img {
 .herbs{
   font-family: SourceSerifPro-Light;
   background-color: #8E5572;
-  width: 700px
-  height: 700px
-
+  width: 700px;
+  height: 700px;
 }
 
 .crystals{
   font-family: SourceSerifPro-Light;
   background-color: #19647E;
-  width: 700px
-  height: 700px
+  width: 700px;
+  height: 700px;
 }
 
 .decorating{
   font-family: SourceSerifPro-Light;
   background-color: #DD6031;
-  width: 700px
-  height: 700px
+  width: 700px;
+  height: 700px;
 }
 
 .top-link{
@@ -76,6 +75,7 @@ img {
   background-color: #687864;
   margin: auto;
   border: 2px solid black;
+}
 
 .top-link:hover{
   text-decoration: underline;
@@ -105,11 +105,11 @@ header {
   padding: 1em 1em;
   border-radius: 1em;
   min-width: 6em;
-  text-align: right;
+  text-align: center;
 }
 
-.menu-item:hover;{
-  bacground-color: #687864;
+.menu-item:hover{
+  background-color: #687864;
 }
 
 .menu-item a{
@@ -141,15 +141,15 @@ header {
 
 .dropdown-item{
   display: block;
-  text-align: right;
-  margin 0;
+  text-align: left;
+  margin: 0;
   padding: 1em 1em;
   min-width: 6em;
 }
 
 .dropdown-item:hover, .dropdown-item:hover a{
   color: #687864;
-  background color: black;
+  background-color: black;
 }
 
 #foundation:hover{
@@ -162,24 +162,24 @@ header {
 
 .site-name{
   color: black;
-  float: left;
+  float: center;
   min-width: 6em;
   padding: 1em 1em;
   letter-spacing: .3em;
   font-weight: bold;
-  margin: 1em
+  margin: 1em;
 }
 
 .about{
   font-family: SourceSerifPro-Light;
   background-color: #687864;
-  width: 700px
-  height: 700px
+  width: 700px;
+  height: 700px;
 }
 
 .contact{
   font-family: SourceSerifPro-Light;
   background-color: #687864;
-  width: 700px
-  height: 700px
+  width: 700px;
+  height: 700px;
 }
