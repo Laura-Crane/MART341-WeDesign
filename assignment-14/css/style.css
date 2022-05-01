@@ -1,0 +1,218 @@
+/* Applies “SourceSerifPro” to everything: */
+* {
+    font-family: 'SourceSerifPro';
+}
+
+* {
+  box-sizing:border-box;
+}
+
+#menu{
+  font-size: 20px;
+  background-color: #687864;
+  font-color: black;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  height: 150px;
+}
+
+#logo{
+  Float: left;
+}
+
+body{
+  font-family: 'SourceSerifPro-BoldItalic';
+  background-color: #D9CAB3;
+  text-align: center;
+  font-weight: 700;
+}
+
+.title {
+  margin-top: 4em;
+  padding: 1em;
+}
+
+.title:hover{
+  letter-spacing: .05em;
+}
+
+div {
+  display: inline-block;
+}
+
+img {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+
+.herbs{
+  font-family: SourceSerifPro-Light;
+  background-color: #687864;
+  width: 900px;
+  height: 700px;
+  border: 1px solid black;
+  padding-top: 3em;
+}
+
+.crystals{
+  font-family: SourceSerifPro-Light;
+  background-color: #687864;
+  width: 900px;
+  height: 700px;
+  border: 1px solid black;
+  padding-top: 3em;
+}
+
+.decorating{
+  font-family: SourceSerifPro-Light;
+  background-color: #687864;
+  width: 900px;
+  height: 900px;
+  border: 1px solid black;
+  padding-top: 4em;
+}
+
+.top-link{
+  text-decoration: none;
+  color: black;
+  background-color: #687864;
+  margin: auto;
+  padding: 1em 1em 1em 1em;
+  border: 1px solid black;
+}
+
+.top-link: hover{
+  text-decoration: underline;
+  font-weight: 700;
+  background-color: #687864;
+  margin: auto;
+  border: 1px solid black;
+}
+.top-link: visted{
+  color: #8E5572
+}
+
+header {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 4em;
+  top: 0px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 1em 2em;
+  background-color: #687864;
+  padding: 1em 1em;
+  border: 2px solid black;
+  border-radius: 1em;
+  min-width: 6em;
+  text-align: center;
+}
+
+.menu-item:hover{
+  background-color: #687864;
+}
+
+.menu-item a{
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  margin: 1em 0 0 1em;
+  color: black;
+  background-color: #687864;
+  z-index: 1;
+  border-radius: 0em 0em 1em 1em;
+  border: 2px solid black;
+  text-color: black;
+
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content a{
+  color: black;
+}
+
+.dropdown-item{
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 1em 1em;
+  min-width: 6em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a{
+  color: #687864;
+  background-color: black;
+}
+
+#foundation:hover{
+  border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover{
+  border-radius: 1em .2em;
+}
+
+.site-name{
+  color: black;
+  float: center;
+  min-width: 6em;
+  padding: 1em 1em;
+  letter-spacing: .3em;
+  font-weight: bold;
+  margin: 1em;
+}
+
+.about{
+  font-family: SourceSerifPro-Light;
+  background-color: #687864;
+  width: 900px;
+  height: 600px;
+  padding-top: 4em;
+}
+
+.contact{
+  font-family: SourceSerifPro-Light;
+  background-color: #687864;
+  width: 900px;
+  height: 500px;
+}
+
+#first-bar {
+  margin-top: 200px;
+}
+
+.submit {
+  text-decoration: none;
+  color: #687864;
+  background-color: black;
+  margin: auto;
+  padding: 1em 1em 1em 1em;
+  border: 2px solid black;
+  font-size: 15px;
+}
+
+.home{
+  font-family: SourceSerifPro-Light;
+  background-color: #687864;
+  width: 900px;
+  height: 1150px;
+  padding-top: 4em;
+}
